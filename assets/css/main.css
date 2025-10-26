@@ -402,26 +402,23 @@ button:focus,
     background-position: center;
 }
 
-.vidcontainer,
-.hero-video {
-    position: relative;
-    height: 0;
-}
-
 .vidcontainer {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    overflow: hidden
 }
 
 .vidcontainer iframe,
 .vidcontainer video {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .overlay {
@@ -447,6 +444,10 @@ button:focus,
 
 video.undertow {
     box-shadow: 0px 13px 20px rgba(0, 0, 0, 0.17);
+}
+
+.flex-1 {
+    flex: 1 1 0%
 }
 
 dialog {
