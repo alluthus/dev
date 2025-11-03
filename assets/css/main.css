@@ -383,7 +383,6 @@ button:focus,
 
 .hero.main-hero {
     background-image: url('/assets/images/publicity/alluthus_photo_1.png');
-    animation: changeBackground 20s ease-in-out infinite;
 }
 
 .hero.ddi {
@@ -534,28 +533,6 @@ main {
 
 .footer-link {
     color: var(--text);
-}
-
-@keyframes changeBackground {
-    0% {
-        background-image: url('/assets/images/publicity/alluthus_photo_1.png');
-    }
-
-    25% {
-        background-image: url('/assets/images/publicity/alluthus_photo_4.png');
-    }
-
-    50% {
-        background-image: url('/assets/images/publicity/alluthus_photo_3.png');
-    }
-
-    75% {
-        background-image: url('/assets/images/publicity/alluthus_photo_2.png');
-    }
-
-    100% {
-        background-image: url('/assets/images/publicity/alluthus_photo_1.png');
-    }
 }
 
 .no-mix {
