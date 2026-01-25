@@ -737,6 +737,10 @@ li.track-list-item+li.track-list-item {
     border-top-width: 0;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 @media only screen and (max-width: 735px) {
     .card.flex.disco-list {
         flex-direction: column;
